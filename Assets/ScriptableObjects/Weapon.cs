@@ -11,7 +11,6 @@ public class Weapon : MonoBehaviour
     [SerializeField] private float range;
 
 
-
     void Start()
     {
         damage = weaponInformation.Damage; 
@@ -20,6 +19,7 @@ public class Weapon : MonoBehaviour
 
         weaponInformation.showObjectInformation();
     }
+
 
 
 
